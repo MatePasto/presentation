@@ -1,0 +1,17 @@
+.footer-content {
+	display: flex;
+	font-size: 1.25rem;
+	height: 3rem;
+ 	width: 100%;
+ 	justify-content: center;
+	text-indent: 10px;
+	position: relative;
+	margin-top: auto;
+	padding: 15px;
+	align-items: center;
+}
+
+.footer-text {
+	text-align: center;
+	cursor: pointer;
+}

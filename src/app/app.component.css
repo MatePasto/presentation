@@ -1,0 +1,23 @@
+.page-wrap {
+  min-height: calc(100vh - 5rem);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-image: url("./assets/imgs/img1.jpg");
+}
+
+.page-wrap:after {
+  content: "";
+  display: block;
+}
+
+.site-footer {
+  height: 5rem; 
+  background: #424949;
+  color: white;
+}
+
+app-footer {
+  display: flex;
+  height: 100%;
+}

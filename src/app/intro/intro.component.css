@@ -1,0 +1,19 @@
+.container {
+    display: flex;
+    height: calc(100vh - 5rem);
+    padding: 2rem;
+}
+
+.header {
+    align-self: center;
+    width: 70%;
+    height: 5rem;
+    background-color: wheat;
+    border-radius: 1rem;
+    font-family: hind-medium;
+}
+
+.title {
+    display: block;
+    text-align: center;
+}

@@ -1,0 +1,42 @@
+.container {
+    height: 100%;
+    padding: 2rem;
+}
+
+.header {
+    height: 3rem;
+    background-color: wheat;
+    border-radius: 1rem;
+    padding: 1px;
+    text-indent: 1rem;
+    font-family: hind-medium;
+}
+
+.info {
+    display: flex;
+    height: 100%;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.description {
+    flex: 70%;
+    height: 15rem;
+    background-color: wheat;
+    border-radius: 1rem;
+    padding: 1px;
+    margin: 2rem;
+    text-align: center;
+    font-family: hind-medium;
+}
+
+.photo {
+    flex: 30%;
+    height: 15rem;
+    background-color: wheat;
+    border-radius: 1rem;
+    padding: 1px;
+    margin: 2rem;
+    text-align: center;
+    font-family: hind-medium;
+}
