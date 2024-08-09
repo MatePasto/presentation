@@ -9,10 +9,10 @@ export const slideInAnimation =
           left: 0,
           width: '100%',
           opacity: 0,
-          transform: 'scale 0 transitionY(100%)'})
+          transform: 'scale (0) transitionY(100%)'})
       ], { optional: true }),
       query(':enter', [
-        animate('1000ms ease', style({opacity: 1, transition: 'scale 1 transitionY(100%)'}))
+        animate('1000ms ease', style({opacity: 1, transform: 'scale (1) transitionY(100%)'}))
       ], { optional: true })
     ])
   ])

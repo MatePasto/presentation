@@ -1,5 +1,5 @@
-import { Component, OnInit } from '@angular/core';
-import { RouterOutlet } from '@angular/router';
+import { Component } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
 	selector: 'profile.component',
@@ -7,11 +7,14 @@ import { RouterOutlet } from '@angular/router';
 	styleUrls: ['./profile.component.css']
 })
 
-export class ProfileComponent implements OnInit {
+export class ProfileComponent {
 
-  constructor() { }
+  constructor(
+  	private router: Router
+  ) { }
 
-  ngOnInit() {
+  navigate() {
+  	this.router.navigate(['/'])
   }
 
 }

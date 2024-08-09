@@ -10,6 +10,7 @@
     padding: 1px;
     text-indent: 1rem;
     font-family: hind-medium;
+    cursor: context-menu;
 }
 
 .info {
@@ -21,7 +22,18 @@
 
 .description {
     flex: 70%;
-    height: 15rem;
+    background-color: wheat;
+    border-radius: 1rem;
+    padding: 1px;
+    margin: 2rem;
+    text-align: center;
+    font-family: hind-medium;
+    cursor: context-menu;
+    text-indent: 1rem;
+}
+
+.photo {
+    flex: 30%;
     background-color: wheat;
     border-radius: 1rem;
     padding: 1px;
@@ -30,13 +42,7 @@
     font-family: hind-medium;
 }
 
-.photo {
-    flex: 30%;
-    height: 15rem;
-    background-color: wheat;
-    border-radius: 1rem;
-    padding: 1px;
-    margin: 2rem;
-    text-align: center;
-    font-family: hind-medium;
+.left-text {
+    margin: 0;
+    text-align: start;
 }

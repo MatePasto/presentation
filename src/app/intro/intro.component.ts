@@ -1,4 +1,4 @@
-import { Component, HostBinding } from '@angular/core';
+import { Component } from '@angular/core';
 import { Router } from '@angular/router';
 
 @Component({
@@ -13,6 +13,6 @@ export class IntroComponent {
   ) { }
 
   navigate() {
-  	this.router.navigate(['/profile'])
+    this.router.navigate(['/profile'])
   }
 }

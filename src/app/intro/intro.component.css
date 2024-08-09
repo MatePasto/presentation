@@ -6,11 +6,12 @@
 
 .header {
     align-self: center;
-    width: 70%;
+    width: 100%;
     height: 5rem;
     background-color: wheat;
     border-radius: 1rem;
     font-family: hind-medium;
+    cursor: context-menu;
 }
 
 .title {
